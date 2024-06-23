@@ -1,0 +1,254 @@
+.moody-studio {
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    color: inherit;
+    white-space: nowrap;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+  }
+  .frame-child,
+  .image-shape-icon {
+    height: 27px;
+    width: 27px;
+    position: relative;
+  }
+  .frame-child {
+    width: 22.2px;
+    height: 29.6px;
+  }
+  .image-container-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-base) 0 0;
+  }
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-sandybrown);
+    width: 14.8px;
+    height: 14.8px;
+    z-index: 1;
+  }
+  .group-icon {
+    height: 28.6px;
+    width: 24.8px;
+    position: absolute;
+    margin: 0 !important;
+    top: -16.7px;
+    left: -17.8px;
+  }
+  .b {
+    position: relative;
+    display: inline-block;
+    min-width: 6px;
+    z-index: 2;
+  }
+  .group-parent {
+    position: absolute;
+    top: 1.8px;
+    left: 4.7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .ellipse-parent,
+  .group-icon1 {
+    height: 14.8px;
+    width: 17.7px;
+    position: relative;
+  }
+  .group-icon1 {
+    height: 27.6px;
+    width: 29.4px;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-18xl);
+    font-size: var(--font-size-3xs);
+    color: var(--color-white);
+  }
+  .container-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .navigation-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .accessories,
+  .brand,
+  .home,
+  .store {
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+    min-width: 46px;
+  }
+  .accessories,
+  .brand,
+  .store {
+    min-width: 50px;
+  }
+  .accessories,
+  .brand {
+    min-width: 105px;
+  }
+  .brand {
+    min-width: 53px;
+  }
+  .pages {
+    min-width: 50px;
+  }
+  .about-us,
+  .contact-us,
+  .news,
+  .pages {
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+  }
+  .about-us {
+    min-width: 77px;
+    white-space: nowrap;
+  }
+  .contact-us,
+  .news {
+    min-width: 45px;
+  }
+  .contact-us {
+    min-width: 97px;
+    white-space: nowrap;
+  }
+  .menu,
+  .menu-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .menu-links {
+    width: 1006px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .menu {
+    width: 1230px;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .logo-shape-icon,
+  .navigation {
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-lgi);
+    box-sizing: border-box;
+    gap: var(--gap-18xl);
+    font-size: var(--font-size-base);
+  }
+  .logo-shape-icon {
+    position: relative;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .homepage-brand-hm {
+    position: relative;
+    text-transform: lowercase;
+  }
+  .homepage-brand-hm-home-bed-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-81xl);
+  }
+  .content,
+  .logo-container,
+  .page {
+    display: flex;
+    align-items: flex-start;
+  }
+  .logo-container {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-34xl);
+    font-size: var(--font-size-lg);
+  }
+  .content,
+  .page {
+    max-width: 100%;
+  }
+  .content {
+    width: 1281.4px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+    text-align: left;
+    font-size: var(--font-size-9xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-roboto);
+  }
+  .page {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 750px) {
+    .container-parent {
+      flex-wrap: wrap;
+    }
+    .menu-links {
+      display: none;
+    }
+    .menu {
+      width: 224px;
+    }
+    .navigation {
+      gap: var(--gap-lg);
+    }
+    .logo-container {
+      gap: var(--gap-7xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .homepage-brand-hm-home-bed-wrapper {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+  

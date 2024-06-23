@@ -1,0 +1,445 @@
+.footer-columns-child {
+    height: 447px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--color-darkslategray);
+    display: none;
+    max-width: 100%;
+  }
+  .urban-outfitters {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-9xl);
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .lorem-ipsum-dolor {
+    flex: 1;
+    position: relative;
+    line-height: 22px;
+    z-index: 1;
+  }
+  .brand-description {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-11xs);
+    color: var(--color-gray-300);
+  }
+  .k {
+    text-transform: uppercase;
+  }
+  .ing {
+    text-transform: lowercase;
+  }
+  .street-melbourne-3000 {
+    text-transform: capitalize;
+  }
+  .contacturbanoutfitterscom,
+  .king-street-melbourne-container,
+  .location-contact {
+    align-self: stretch;
+    position: relative;
+    line-height: 22px;
+    z-index: 1;
+  }
+  .contacturbanoutfitterscom,
+  .location-contact {
+    white-space: nowrap;
+  }
+  .address-details,
+  .brand-address {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .address-details {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xs);
+  }
+  .brand-address {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 var(--padding-sm) var(--padding-11xs);
+  }
+  .vector-icon {
+    align-self: stretch;
+    width: 9.6px;
+    position: relative;
+    max-height: 100%;
+    min-height: 20px;
+    z-index: 1;
+  }
+  .ant-designinstagram-filled-icon,
+  .ant-designtwitter-outlined-icon,
+  .vaadinyoutube-icon {
+    height: 19.9px;
+    width: 19.9px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+    z-index: 1;
+  }
+  .icons-image {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .brand-info,
+  .social-icons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .social-icons {
+    width: 290.6px;
+    flex-direction: row;
+    padding: 0 var(--padding-11xs);
+    box-sizing: border-box;
+  }
+  .brand-info {
+    width: 314px;
+    flex-direction: column;
+    gap: var(--gap-22xl);
+  }
+  .shopping {
+    position: relative;
+    display: inline-block;
+    min-width: 80px;
+    z-index: 1;
+  }
+  .compared-items,
+  .shipping-detail,
+  .wishlist-items,
+  .your-cart,
+  .your-orders {
+    position: relative;
+    font-weight: 300;
+    display: inline-block;
+    min-width: 56px;
+    z-index: 1;
+  }
+  .compared-items,
+  .shipping-detail,
+  .wishlist-items,
+  .your-orders {
+    min-width: 71px;
+  }
+  .compared-items,
+  .shipping-detail,
+  .wishlist-items {
+    min-width: 103px;
+  }
+  .shipping-detail,
+  .wishlist-items {
+    min-width: 87px;
+  }
+  .shipping-detail {
+    min-width: 90px;
+  }
+  .shopping-links,
+  .shopping-more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .shopping-links {
+    gap: var(--gap-base);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+  }
+  .shopping-more {
+    gap: var(--gap-15xl);
+  }
+  .more-link {
+    position: relative;
+    display: inline-block;
+    min-width: 84px;
+    z-index: 1;
+  }
+  .blog,
+  .buying-guides,
+  .clearance,
+  .gift-center,
+  .new-arrivals2 {
+    position: relative;
+    font-weight: 300;
+    display: inline-block;
+    min-width: 28px;
+    z-index: 1;
+  }
+  .buying-guides,
+  .clearance,
+  .gift-center,
+  .new-arrivals2 {
+    min-width: 66px;
+  }
+  .buying-guides,
+  .clearance,
+  .new-arrivals2 {
+    min-width: 88px;
+  }
+  .clearance,
+  .new-arrivals2 {
+    min-width: 77px;
+  }
+  .clearance {
+    min-width: 62px;
+  }
+  .blog-parent,
+  .shopping-more1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .blog-parent {
+    gap: var(--gap-base);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+  }
+  .shopping-more1 {
+    gap: var(--gap-15xl);
+  }
+  .from-the-blog {
+    position: relative;
+    display: inline-block;
+    min-width: 123px;
+    z-index: 1;
+  }
+  .blog-title {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+  }
+  .empty-post,
+  .may {
+    position: relative;
+    display: inline-block;
+    min-width: 27px;
+    z-index: 1;
+  }
+  .post-details,
+  .post-month {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .post-month {
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    font-size: var(--font-size-sm);
+  }
+  .post-details {
+    flex-direction: row;
+    gap: var(--gap-7xs);
+  }
+  .lorem-ipsum-dolor1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 22px;
+    font-weight: 300;
+    color: var(--color-white);
+    z-index: 1;
+  }
+  .comments {
+    position: relative;
+    display: inline-block;
+    min-width: 79px;
+    z-index: 1;
+  }
+  .post-columns,
+  .post-comments {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .post-comments {
+    flex-direction: row;
+    padding: 0 var(--padding-11xs);
+    font-size: var(--font-size-sm);
+  }
+  .post-columns {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-3xs-5);
+  }
+  .blog-posts-child {
+    width: 296px;
+    height: 1px;
+    position: relative;
+    z-index: 1;
+  }
+  .div6,
+  .may1 {
+    position: relative;
+    display: inline-block;
+    min-width: 27px;
+    z-index: 1;
+  }
+  .may-wrapper,
+  .parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .may-wrapper {
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    font-size: var(--font-size-sm);
+  }
+  .parent {
+    flex-direction: row;
+    gap: var(--gap-7xs);
+  }
+  .lorem-ipsum-dolor2 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 22px;
+    font-weight: 300;
+    color: var(--color-white);
+    z-index: 1;
+  }
+  .comments1 {
+    position: relative;
+    display: inline-block;
+    min-width: 79px;
+    z-index: 1;
+  }
+  .comments-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs);
+    font-size: var(--font-size-sm);
+  }
+  .blog-posts,
+  .post-columns1 {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .post-columns1 {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .blog-posts {
+    gap: var(--gap-14xl);
+    font-size: var(--font-size-5xl);
+    color: var(--color-gray-300);
+  }
+  .blog-posts,
+  .blog1,
+  .footer-columns {
+    display: flex;
+    align-items: flex-start;
+  }
+  .blog1 {
+    width: 312px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-6xl);
+  }
+  .footer-columns {
+    align-self: stretch;
+    background-color: var(--color-darkslategray);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-31xl) var(--padding-149xl) var(--padding-52xl)
+      var(--padding-53xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .copyright-child {
+    height: 52px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    display: none;
+    max-width: 100%;
+  }
+  .urban-outfitters1 {
+    width: 262.7px;
+    position: relative;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .copyright,
+  .footer {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .copyright {
+    background-color: var(--color-gray-100);
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-lg) var(--padding-xl) var(--padding-lg)
+      var(--padding-2xl);
+    box-sizing: border-box;
+    z-index: 1;
+    margin-top: -4px;
+    font-size: var(--font-size-sm);
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+  }
+  @media screen and (max-width: 1200px) {
+    .footer-columns {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .footer-columns {
+      padding-left: var(--padding-17xl);
+      padding-right: var(--padding-65xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .urban-outfitters {
+      font-size: var(--font-size-3xl);
+    }
+    .brand-info {
+      gap: var(--gap-xl);
+    }
+    .div6,
+    .empty-post {
+      font-size: var(--font-size-lgi);
+    }
+    .blog-posts {
+      gap: var(--gap-base);
+    }
+    .footer-columns {
+      padding-top: var(--padding-13xl);
+      padding-right: var(--padding-xl);
+      padding-bottom: var(--padding-27xl);
+      box-sizing: border-box;
+    }
+  }
+  

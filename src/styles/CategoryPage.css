@@ -1,0 +1,63 @@
+.category-bedroom-products-page-child,
+.category-bedroom-products-page-inner,
+.category-bedroom-products-page-item,
+.rectangle-div {
+  width: 306px;
+  height: 365px;
+  position: relative;
+  background-color: var(--color-silver);
+  display: none;
+}
+.navigation-panel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-53xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.category-bedroom-products-page,
+.promotion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.promotion {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 28px;
+  gap: 96px;
+  max-width: 100%;
+}
+.category-bedroom-products-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-13xl) 0 0;
+  gap: 54px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .navigation-panel {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .promotion {
+    gap: 48px;
+  }
+  .category-bedroom-products-page {
+    gap: 27px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .promotion {
+    gap: var(--gap-5xl);
+  }
+}

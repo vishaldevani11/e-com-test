@@ -1,0 +1,110 @@
+.offer-child {
+    width: 1440px;
+    height: 265px;
+    position: relative;
+    background-color: var(--color-gainsboro-200);
+    display: none;
+    max-width: 100%;
+  }
+  .m {
+    text-transform: capitalize;
+  }
+  .ember {
+    text-transform: lowercase;
+  }
+  .e {
+    text-transform: capitalize;
+  }
+  .xclusive {
+    text-transform: lowercase;
+  }
+  .member-exclusive {
+    margin: 0;
+    height: 45px;
+    width: 311px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    z-index: 1;
+  }
+  .exclusive-offer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-11xl);
+  }
+  .off-everything {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .membership {
+    width: 821px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+  }
+  .oin-now-to,
+  .ot-a-member {
+    text-transform: lowercase;
+  }
+  .not-a-member-container {
+    width: 279px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .join-prompt,
+  .offer {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .join-prompt {
+    width: 830px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-4xl);
+    font-size: var(--font-size-lg);
+  }
+  .offer {
+    align-self: stretch;
+    background-color: var(--color-gainsboro-200);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-25xl) var(--padding-xl);
+    gap: var(--gap-30xl);
+    text-align: left;
+    font-size: var(--font-size-19xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-roboto);
+  }
+  @media screen and (max-width: 1050px) {
+    .member-exclusive,
+    .off-everything {
+      font-size: var(--font-size-11xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .member-exclusive,
+    .off-everything {
+      font-size: var(--font-size-4xl);
+    }
+    .offer {
+      gap: var(--gap-5xl);
+    }
+  }
+  
